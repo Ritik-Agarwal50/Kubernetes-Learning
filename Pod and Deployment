@@ -1,8 +1,8 @@
 What are Pods?
- -> Pods are similiar like containers in docker. Pods are the ssmallest and simplest unit in the kubernetes object model you create or depoly. A Pod represent a single insatance of a running process in your cluster and can contain
+ -> Pods are similar to containers in docker. Pods are the smallest and simplest unit in the Kubernetes object model you create or deploy. A Pod represents a single instance of a running process in your cluster and can contain
     one or more containers.
 
-Key Characteristics :- 
+Key Characteristics:- 
   1. Multiple Containers
   2. Shared Network
   3. Storage
@@ -10,18 +10,15 @@ Key Characteristics :-
   5. Configuration
 
 What are Deployments?
--> A Deployments in Kubernetes is a higher level abstraction that manges the creation, scaling, and updating of pods. Deployments provide declarative for pods and replicaSets, enabling robust and controlled application deployments and 
+-> A Deployment in Kubernetes is a higher-level abstraction that manages the creation, scaling, and updating of pods. Deployments provide declarative for pods and replica sets, enabling robust and controlled application deployments and 
 management. 
 
-Key Features :-
+Key Features:-
   1. Declarative Updates
   2. Scaling
   3. Self Healing
   4. Versioning
   5. Rolling Updates
-
-
-
 
 COMMANDS FOR DEPLOYING PODS OR DEPLOYMENTS
 
@@ -31,7 +28,7 @@ COMMANDS FOR DEPLOYING PODS OR DEPLOYMENTS
   ``` kubctl apply -f <yaml script file> ```
 3. Listing all the deployments 
   ```kubectl get deployment ```
-4. Eanabling to ssh commad 
+4. Enabling to ssh command 
   ``` minikube ssh ```
 5. Connecting to the deployment IP 
   ``` ssh <ip> ```
