@@ -1,0 +1,27 @@
+What is Ingress?
+  - This is kubernetes resources that helps in managing access to the services like HTTP ot HTTPS inbound traffice.
+  - It has set of rules for inbound traffice services like paths, host etc.
+
+Key Topics
+  1. Ingress Controller
+  2. Ingress Resources
+
+  - Ingress Controller -> It implements the load balancer or proxy server to redirect the traffice according to the provided rules. 
+                        -> Common Types of Controllers are nginx, HAproxy, etc.
+
+  - Ingress Resources -> It is just set of rules how traffice or external request will be redirected with in clusters.
+
+
+- Advantages of Using Ingress
+  1. It solve the issue of access multiple services in centralize manner.
+  2. It provide load balancing features.
+  3. It manges SSL/TLS certificates.
+  4. Easily define complex routing as per your needs.
+
+- Ingress Controllers Providers
+  1. Nginx
+  2. HAProxy
+  3. Traefik
+  4. AWS ALB
+
+Demo yml file will be uploaded soon
